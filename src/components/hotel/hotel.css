@@ -1,0 +1,52 @@
+.clearfloat:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.hotel {
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  height: 100px;
+  line-height: 100px; }
+
+.hotel dl {
+  display: block;
+  width: 80%;
+  float: left; }
+
+.hotel span {
+  display: block;
+  color: red;
+  float: right;
+  text-align: left;
+  width: 20%; }
+
+.hotel dl dd {
+  float: left;
+  width: 46px;
+  background-color: #f9f9f9;
+  margin-right: 8px;
+  text-align: center;
+  height: 46px; }
+
+.hotel dl dd img {
+  width: 100%;
+  height: 100%; }
+
+.hotel dl dt {
+  float: left;
+  text-align: left;
+  line-height: 33px;
+  width: 140px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer; }
+
+.hotel dl dt:last-child {
+  font-size: 8px; }
+
+.hotel :hover dl dt {
+  color: #37B9FF; }
+
+/*# sourceMappingURL=hotel.css.map */

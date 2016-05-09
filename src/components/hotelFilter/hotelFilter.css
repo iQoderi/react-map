@@ -1,0 +1,36 @@
+.scroll-clip {
+  width: 100%;
+  min-height: 100%;
+  position: relative; }
+
+.list, .hotel {
+  width: 100%;
+  overflow-y: scroll;
+  color: #49484b;
+  text-align: center; }
+
+.list {
+  padding: 0;
+  margin-bottom: 20px; }
+
+.list ul li {
+  display: block;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 58px;
+  width: 100%;
+  border-bottom: #EEEEEE 1px solid; }
+
+.list ul li span {
+  display: block; }
+
+.list ul li div {
+  line-height: 28px;
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 30px; }
+
+.list ul li div input {
+  margin-left: 30px; }
+
+/*# sourceMappingURL=hotelFilter.css.map */

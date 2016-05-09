@@ -1,0 +1,36 @@
+.select-cont {
+  width: 100%;
+  .menu {
+    background-color: #3cb0d0;
+    width: 100%;
+    padding: 5px 5px 0;
+    height: 40px;
+    color: white;
+    div {
+      float: left;
+      width: 50%;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .select {
+      background-color: white;
+      color: black;
+      a {
+        color: #222;
+      }
+    }
+
+  }
+}
