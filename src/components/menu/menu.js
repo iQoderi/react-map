@@ -35,14 +35,10 @@ const Menu = React.createClass({
       <div className="select-cont">
         <div className="menu">
           <div className={this.state.filterClass} onClick={this.handleClick}>
-            <a href="#/hotelFilter">
-              筛选条件
-            </a>
+            <Link to="/hotelFilter">筛选条件</Link>
           </div>
           <div className={this.state.listClass} onClick={this.handleClick}>
-            <a href="#/hotelList">
-              酒店列表
-            </a>
+            <Link to="/hotelList">酒店列表</Link>
           </div>
         </div>
       </div>)

@@ -8,12 +8,13 @@ const Route = ReactRouter.Route;
 const Link = ReactRouter.Link;
 const IndexRouter = ReactRouter.IndexRouter;
 const Redirect = ReactRouter.Redirect;
+const  hashHistory=ReactRouter.hashHistory;
 
 const HotelFilter = require('../hotelFilter/hotelFilter');
 const HotelList = require('../hotelList/hotelList');
 
 let routes = (
-  <Router location="hash">
+  <Router history={hashHistory}>
     <Route path="/hotelFilter" name='hotelFilter' component={HotelFilter}/>
     <Route path="/hotelList" name='hotelList' component={HotelList}/>
   </Router>

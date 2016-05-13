@@ -3,6 +3,8 @@
  * Created by qoder on 16-5-9.
  */
 const React = require('react');
+const ReactBootstrap = require('react-bootstrap');
+const Button = ReactBootstrap.Button;
 const PriceCheckBox = require('../priceCheckBox/priceCheckBox');
 const PriceRange = React.createClass({
   getInitialState: function () {

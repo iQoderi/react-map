@@ -3,7 +3,6 @@ require('styles/App.css');
 
 import React from 'react';
 
-
 const Menu = require('../components/menu/menu');
 const Hotel = require('../components/hotelRouter/hotelRouter');
 
@@ -16,6 +15,7 @@ var AppComponent = React.createClass({
           <Menu/>
           <Hotel/>
         </div>
+        {this.props.children}
       </div>
     )
   }
